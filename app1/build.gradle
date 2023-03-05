@@ -8,7 +8,13 @@ group 'eawangja.tech.app1'
 version '1.0-SNAPSHOT'
 
 mainClassName= 'eawangja.tech.app1.Main'
+//create a single Jar with all dependencies
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'eawangja.tech.app1.Main'
+    }
+}
 repositories {
     mavenCentral()
 }
