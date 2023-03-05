@@ -15,6 +15,7 @@ jar {
         attributes 'Main-Class': 'eawangja.tech.app1.Main'
     }
 }
+
 repositories {
     mavenCentral()
 }
